@@ -1,12 +1,7 @@
 //SET UP
-// 1. Do the normal repo creation on github and clone to terminal before opening in vs code.
-// 2. Open repo in vscode; first order of business is creating a build folder where g++ will store the code after converting it from 
-// human readable code to machine language. You only need 1 build folder in a repo provided it holds a single project
-// 3. Make your files normally using ; touch file_name.cpp eg. touch basics.cpp
-// 4. Open the file and write you code then save.
-// 5. Compile using the following command; g++ folder/file_name.cpp -o build/text-file_name or  g++ file_name.cpp -o build/text-file_name; if the file is not in a folder
-// eg. g++ week1/basics.cpp -o build/week1_basics
-// 6. then run the code in the file using the following command; ./build/text-file_name  eg.  ./build/week-1_basics
+// 1. Running js code 
+//syntax : node file_name.js
+//eg . node conditionals.js
 
 //BASICS
 //1. Data types - tells C++ what kind of data a variable can store, and what operations are allowed.
