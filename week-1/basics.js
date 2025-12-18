@@ -13,12 +13,12 @@
     // 5. string = text; enclosed in double quotes, single quotes, back ticks ; `` eg. string name = "Chiya";
     // 6. booleans = boooleans ie. true/false eg bool isStudent = true;  
     //falsey values 0, Null, Nan(not a number), undefined, empty string
-    //objects - key value pairs enclode in curly braces{}
-    //eg. let person = {
-    //      name : "Chiya",
-    //      age :21,
-    //      city : "Nairobi"
-    //   };
+    //objects - key value pairs enclode in curly braces{}  eg. 
+     let person = {
+         name : "Chiya",
+         age :21,
+         city : "Nairobi"
+      };
 
 //2. Variable declarations
 //Variables are declared using let or const
