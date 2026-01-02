@@ -173,7 +173,8 @@ function stringMasking(){
 
     let p2 = "mypassword";
     let v = p2.slice(0,3);
-    let m2 = v + "*".repeat(p2.length - 3)
+    // let v2 = p2.slice(8) - leaves the last 2 characters visible
+    let m2 = v + "*".repeat(p2.length - 3)//+ v2
     console.log(m2);
 }
 stringMasking();

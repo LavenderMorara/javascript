@@ -9,6 +9,7 @@
 7.Collections -Basic array operations
               -array methods
               -array iteration methods
+              -looping through arrays
               -nested arrays
               -array destructuring
               -object properties
@@ -21,9 +22,9 @@
               -optional chaining
 
 8.DOM manipulation
-9.Communicating with servers
+9.Asynchronous programming
 10.Error and exception handling
 11.Algorithims and data structures
-12.Asynchronous programming
+12.Communicating with servers
 13.Optimistic updating/Fetching
 14.Debugging and testing
