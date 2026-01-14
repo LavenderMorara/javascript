@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Playground</title>
+
+  <!-- Tailwind CDN -->
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+<body class="bg-gray-100 min-h-screen p-6 flex items-start justify-center">
+
+  <!-- Container -->
+  <div class="bg-white p-6 rounded shadow max-w-md w-full">
+
+    <h1 class="text-2xl font-bold mb-4 text-center">JS Playground</h1>
+
+    <!-- Input & Button -->
+    <div class="flex gap-2 mb-4">
+      <input id="input" type="text" placeholder="Enter item"
+             class="flex-1 p-2 border rounded">
+      <button id="addBtn"
+              class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+        Add
+      </button>
+    </div>
+
+    <!-- List -->
+    <ul id="list" class="space-y-2">
+      <!-- Items will appear here -->
+    </ul>
+
+  </div>
+
+  <!-- JS files (order matters) -->
+  <!-- <script src="arrays/iteration.js" defer></script>
+  <script src="dom/main.js" defer></script> -->
+
+</body>
+</html>
